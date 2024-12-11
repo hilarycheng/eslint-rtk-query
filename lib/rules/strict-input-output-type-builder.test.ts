@@ -23,7 +23,7 @@ const ruleTester = new RuleTester({
     },
 });
 
-ruleTester.run("no-loop-over-enum", rule, {
+ruleTester.run("strict-input-output-type-builder", rule, {
     valid: [
         `
         createApi({
